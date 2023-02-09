@@ -8,4 +8,11 @@
 # tf variables files, may include sensitive data
 *.tfvars
 
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore crash logs
+crash.log
+
 
